@@ -3,3 +3,79 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.rdtDays,
+.rdtMonths,
+.rdtYears,
+.rdtTime,
+.rdtCounters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdtDays,
+.rdtMonths,
+.rdtYears,
+.rdtTime {
+  flex-direction: column;
+}
+
+.rdtCounters {
+  flex-direction: row;
+}
+
+.rdtSwitch,
+.rdtNext,
+.rdtPrev,
+.rdtDay,
+.rdtMonth,
+.rdtYear,
+.rdtTimeToggle,
+.rdtBtn {
+  cursor: pointer;
+}
+
+.rdtCount,
+.rdtDay,
+.rdtMonth,
+.rdtYear,
+.rdtTimeToggle,
+.rdtSwitch {
+  padding: 1.5vw;
+}
+
+.rdtDay:hover,
+.rdtMonth:hover,
+.rdtYear:hover {
+    background-color: gray;
+    color: white;
+}
+
+.rdtOld,
+.rdtNew {
+  background-color: #fff6f6;
+}
+
+.rdtBtn {
+  color: gray;
+  font-size: 10px;
+}
+
+.rdtActive {
+  background-color: #ee8282;
+  color: white;
+}
+
+.rdtTimeToggle {
+  font-weight: 600;
+}
+
+.rdtNext,
+.rdtPrev {
+  color: #ee8282;
+}
+
+.rdtPicker {
+  margin-bottom: 20px;
+}
